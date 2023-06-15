@@ -7,11 +7,31 @@ height: 30px;
 padding: 20px;
 display: flex;
 justify-content: space-between;
-background-color: #111;
+/* background-color: #111; */
 }
 .logo{
    position: fixed;
    left: 20px;
    top: 25px;
    width: 80px;
+}
+.navitems{
+   display: flex;
+   flex-direction: row;
+   margin-left: 150px;
+   
+}
+.navitems li{
+   color: white;
+   margin-right: 30px;
+   margin-top: 6px;
+   list-style: none;
+   font-size: 18px;
+}
+.rightnav li{
+   color: white;
+   list-style: none;
+   margin-right: 250px;
+   margin-top: 6px;
+   font-weight: 600;
 }
